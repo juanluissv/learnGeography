@@ -1,5 +1,5 @@
 <h2 >Learn Geography </h2>
-Demo: https://learncountries.herokuapp.com/home
+Demo: https://learncountries.herokuapp.com
  <img src="https://raw.githubusercontent.com/juanluissv/learnGeography/main/screen.png" />
 
 <p> Learn geography app made with React Redux Node JS Express JS and Postgresql </p>
