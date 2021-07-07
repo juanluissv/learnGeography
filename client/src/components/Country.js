@@ -18,9 +18,7 @@ const Country = ({match}) => {
     if ((loading == false ) && (country.activities.length > 0)) {
         loading2 = true
         console.log(loading2) 
-
     }        
-
 
 
     return (

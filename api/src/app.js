@@ -41,13 +41,6 @@ if (process.env.NODE_ENV === 'production') {
   }
 
 
-
-
-
-
-
-
-
 // Error catching endware.
 server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
   const status = err.status || 500;

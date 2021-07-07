@@ -118,8 +118,6 @@ export const searchCountries = (query) => async (dispatch) => {
 }
 
 
-
-
 export const createActivity = (activity) => async(dispatch) => {
     try {
         dispatch({

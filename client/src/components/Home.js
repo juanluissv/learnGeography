@@ -6,7 +6,6 @@ import CountryCard from './CountryCard';
 import Pagination from './Pagination';
 
 
-
 const Home = () => {
 
     const dispatch = useDispatch();
@@ -67,9 +66,6 @@ const Home = () => {
     }
 
 
-
-
-
    //FILTERS
     const filterName = (e) => {
         let sorted;
@@ -123,8 +119,6 @@ const Home = () => {
         dispatch(filterCountries(mynewcountries))        
     }
     
-    console.log(showPagination)
-
 
     return (
         <>
@@ -195,15 +189,8 @@ const Home = () => {
                                         return <option key={key} value={e.value}>{e.name}</option>;
                                     })}
                                 </select>                            
-                            </div>
-
-                                                         
-
-                            
-                            
-                        </div>
-                        
-
+                            </div>                                                         
+                        </div>                    
                         { error ? <p className="myerror">{error}</p> :
                         success ? 
                             <div>
@@ -253,10 +240,8 @@ const Home = () => {
                                     <p className="yourPage"> you are in page: {currentPage}</p>
                             </div>
                         }        
-
                     </div>
                     </div>    
-
                 </div>
             }
         </>

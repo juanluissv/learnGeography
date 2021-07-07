@@ -7,7 +7,6 @@ const Header = () => {
 
     const dispatch = useDispatch();
     
-
     const goHome = () => {
         dispatch({ type: 'SEARCH_COUNTRY_RESET' })
         dispatch({ type: 'FILTER_RESET' })

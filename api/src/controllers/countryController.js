@@ -4,10 +4,6 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
 
 
-
-
-
-
 // GET -  API/COUNTRIES
 const getCountries = async(req, res) => {
 
