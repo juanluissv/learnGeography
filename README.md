@@ -1,4 +1,4 @@
-<h2 >React Node JS Ecommerce </h2>
+<h2 >Learn Geography </h2>
 Demo: https://learncountries.herokuapp.com/home
  <img src="https://raw.githubusercontent.com/juanluissv/learnGeography/main/screen.png" />
 
