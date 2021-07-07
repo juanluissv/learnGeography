@@ -1,0 +1,249 @@
+body {
+  font-family: "Myriad Pro";
+  background-image: url("https://cdn.mos.cms.futurecdn.net/gXb3pyh5XWpuQQpDYEatxg.jpg");
+  background-color: rgb(10, 10, 43);
+  color: #f6f6f6;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.welcome {
+  margin-left: 36.5%;
+}
+.welcomeBody {
+  margin-top: 200px;
+}
+.welcomeLink {
+  color: #d9e5eb;
+  margin-left: 46%;
+  font-size: 40px;
+  text-decoration: none;
+}
+/*******HEADER********/
+span.e {
+  color: #d9e5eb;
+}
+.logo {
+  float: left;
+}
+.myLink {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+.header {
+  padding-bottom: 90px;
+  margin-left: 40%;
+}
+/***HOME***/
+.content {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.row {
+  width: 100%;
+}
+.searchBox {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+.loading {
+  margin-left: 45%;
+  margin-top: 250px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.myerror {
+  margin-left: 35%;
+  margin-top: 120px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+span.category {
+  height: 30px;
+  padding-right: 1%;
+  float: left;
+  color: #5daad0;
+  margin-top: 20px;
+  margin-left: 3%;
+  border-right: dotted 1px #ccc;
+}
+.search {
+  float: left;
+  margin-left: 38%;
+  margin-right: 30%;
+  padding-right: 2%;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.search input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 0px;
+  width: 200px;
+}
+.mySelect {
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.search input[type="submit"] {
+  border: none;
+  background-color: rgba(107, 148, 153, 0.308);
+  color: #daf3ff;
+  padding: 10px 20px;
+  margin-left: 5px;
+  border-radius: 8px;
+}
+.user {
+  height: 30px;
+  float: left;
+  color: #f6f6f6;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  border-right: dotted 1px #ccc;
+}
+.user2 {
+  height: 30px;
+  float: left;
+  font-size: 18px;
+  color: #daf3ff;
+  margin-top: 20px;
+  margin-left: 45%;
+  border: 1px solid rgb(232, 233, 233);
+  background-color: rgb(221, 236, 238);
+  padding: 5px;
+  border-radius: 5px;
+}
+.shop {
+  float: left;
+  margin-top: 20px;
+  color: #aaa;
+  margin-left: 3%;
+}
+.fa-shopping-cart {
+  color: #5daad0;
+}
+
+/******COUNTRYCARD*****/
+
+.column {
+  float: left;
+  width: 20%;
+  margin-left: 4%;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgba(29, 41, 71, 0.384);
+  box-shadow: 2px 2px 2px 1px rgba(203, 203, 228, 0.2);
+  border-radius: 30px;
+}
+.flagImg {
+  height: 50px;
+}
+.countryName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f6f6f6;
+}
+.myButton2 {
+  background-color: rgba(221, 236, 238, 0.329);
+  color: #d9e5eb;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/****COUNTRY******/
+.column2 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.flagImg2 {
+  height: 200px;
+}
+.countryText {
+  font-weight: bolder;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+}
+.countActi {
+  margin-left: 41.5%;
+  font-size: 20px;
+  padding-top: 550px;
+  font-weight: 700;
+}
+
+/*****ACTIVITY******/
+.activityForm {
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+.myInput {
+  margin-left: 8px;
+  font-size: 15px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+.mySelect2 {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 8px;
+  border-radius: 6px;
+}
+.submitAct {
+  margin-left: 9%;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  background-color: rgba(221, 236, 238, 0.288);
+  border-radius: 5px;
+  color: #daf3ff;
+  padding: 6px 20px;
+}
+.addCountry {
+  margin-left: 40%;
+  margin-top: 80px;
+}
+button:disabled,
+button[disabled] {
+  visibility: hidden;
+}
+/****PAGINATION******/
+.pagination {
+  padding-top: 640px;
+  margin-left: 7%;
+  margin-bottom: 70px;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+}
+
+.page-link {
+  background-color: rgba(29, 41, 71, 0.384);
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+.yourPage {
+  margin-left: 45%;
+  color: #e0e9ee;
+  font-size: 18px;
+  font-weight: 600;
+}
